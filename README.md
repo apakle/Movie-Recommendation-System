@@ -6,7 +6,6 @@ This project implements a movie recommendation system using collaborative filter
 
 - [Overview](#overview)
 - [Dataset](#dataset)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [How It Works](#how-it-works)
@@ -20,12 +19,6 @@ This movie recommendation system is designed to suggest movies to users based on
 ## Dataset
 
 The project uses the [MovieLens 100K dataset](https://grouplens.org/datasets/movielens/100k/), which contains 100,000 ratings from 943 users on 1,682 movies. The dataset is well-suited for academic and learning purposes due to its manageable size and rich metadata.
-
-## Project Structure
-    ├── ml-100k/ # Extracted MovieLens dataset
-    ├── Movie Recommendation System.ipynb # Jupyter notebook with the implementation
-    ├── README.md # This README file
-    └── .ipynb_checkpoints/ # Jupyter notebook checkpoints (ignored)
 
 ## Installation
 
