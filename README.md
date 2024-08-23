@@ -50,7 +50,6 @@ The project uses the [MovieLens 100K dataset](https://grouplens.org/datasets/mov
 The recommendation system operates as follows:
 
 1. **Data Preprocessing:**
-
 	The MovieLens dataset is loaded, and ratings and movies data are merged.
 	A user-item matrix is created with users as rows, movie titles as columns, and ratings as values.
 
