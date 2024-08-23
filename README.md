@@ -59,7 +59,7 @@ The project uses the [MovieLens 100K dataset](https://grouplens.org/datasets/mov
 	Execute the cells sequentially to load the dataset, preprocess the data, build the model, and generate recommendations.
 	
 ## How It Works
-	The recommendation system operates as follows:
+The recommendation system operates as follows:
 
 1. **Data Preprocessing:**
 
@@ -76,6 +76,6 @@ The project uses the [MovieLens 100K dataset](https://grouplens.org/datasets/mov
 	For a given user, movies are recommended based on the ratings of the most similar users, excluding movies the user has already seen.
 	
 ## Results
-test
+The system effectively recommends movies to users based on the preferences of similar users. Results can be customized by adjusting the number of SVD components or filtering based on certain criteria.
 ## License 
-	This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
