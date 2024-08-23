@@ -24,7 +24,7 @@ This movie recommendation system is designed to suggest movies to users based on
 The project uses the [MovieLens 100K dataset](https://grouplens.org/datasets/movielens/100k/), which contains 100,000 ratings from 943 users on 1,682 movies. The dataset is well-suited for academic and learning purposes due to its manageable size and rich metadata.
 
 ## Project Structure
-.
+
 ├── ml-100k/ # Extracted MovieLens dataset
 ├── Movie Recommendation System.ipynb # Jupyter notebook with the implementation
 ├── README.md # This README file
@@ -61,25 +61,21 @@ The project uses the [MovieLens 100K dataset](https://grouplens.org/datasets/mov
 ## How It Works
 	The recommendation system operates as follows:
 
-	**1. Data Preprocessing:**
+1. **Data Preprocessing:**
 
 	The MovieLens dataset is loaded, and ratings and movies data are merged.
 	A user-item matrix is created with users as rows, movie titles as columns, and ratings as values.
 
-	**2. Dimensionality Reduction:**
-
+2. **Dimensionality Reduction:**
 	Truncated SVD is applied to reduce the dimensionality of the user-item matrix, capturing the latent factors that explain the variation in user preferences.
 	
-	**3. Similarity Calculation:**
-
+3. **Similarity Calculation:**
 	Cosine similarity is computed between users based on their latent factors, identifying users with similar preferences.
 	
-	**4. Recommendation Generation:**
-
+4. **Recommendation Generation:**
 	For a given user, movies are recommended based on the ratings of the most similar users, excluding movies the user has already seen.
 	
-## Results
-	
+## Results	
 	The system effectively recommends movies to users based on the preferences of similar users. Results can be customized by adjusting the number of SVD components or filtering based on certain criteria.
 	
 ## License
