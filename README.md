@@ -11,9 +11,7 @@ This project implements a movie recommendation system using collaborative filter
 - [Usage](#usage)
 - [How It Works](#how-it-works)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -29,7 +27,6 @@ The project uses the [MovieLens 100K dataset](https://grouplens.org/datasets/mov
 ├── Movie Recommendation System.ipynb # Jupyter notebook with the implementation
 ├── README.md # This README file
 └── .ipynb_checkpoints/ # Jupyter notebook checkpoints (ignored)
-
 
 ## Installation
 
