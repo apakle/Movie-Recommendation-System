@@ -76,7 +76,6 @@ The project uses the [MovieLens 100K dataset](https://grouplens.org/datasets/mov
 	For a given user, movies are recommended based on the ratings of the most similar users, excluding movies the user has already seen.
 	
 ## Results
-	The system effectively recommends movies to users based on the preferences of similar users. Results can be customized by adjusting the number of SVD components or filtering based on certain criteria.
-
+test
 ## License 
 	This project is licensed under the MIT License. See the LICENSE file for details.
