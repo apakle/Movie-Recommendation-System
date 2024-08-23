@@ -10,7 +10,7 @@ This project implements a movie recommendation system using collaborative filter
 - [Usage](#usage)
 - [How It Works](#how-it-works)
 - [Results](#results)
-- 
+
 ## Overview
 
 This movie recommendation system is designed to suggest movies to users based on their past ratings and the ratings of similar users. The project uses Python and several libraries including `pandas`, `scikit-learn`, and `requests`. The core algorithm is based on collaborative filtering using Truncated SVD for dimensionality reduction and cosine similarity for finding similar users. The implementation is done in a Jupyter notebook, making it easy to follow along and visualize the steps involved.
