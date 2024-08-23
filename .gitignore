@@ -1,0 +1,14 @@
+# Ignore the dataset directory
+ml-100k/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore any Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook metadata
+.ipynb_checkpoints/
+*.nbconvert.ipynb
